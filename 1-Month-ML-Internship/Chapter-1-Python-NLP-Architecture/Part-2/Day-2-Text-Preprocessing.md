@@ -408,6 +408,44 @@ print(f"Bigrams: {result['bigrams'][:5]}")  # First 5 bigrams
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Regular Expressions**
+- **Python Regex Module:** [docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
+  - Official documentation with comprehensive examples
+  
+- **Regex101 Interactive Tool:** [regex101.com](https://regex101.com/)
+  - Test and debug regular expressions in real-time
+  
+- **Real Python - Regular Expressions:** [realpython.com/regex-python](https://realpython.com/regex-python-basics/)
+  - Practical guide to regex patterns
+
+### **NLP Foundations**
+- **Stopwords Lists:** [NLTK Stopwords](https://www.nltk.org/howto/spanish_es.html)
+  - Pre-built stopword lists for multiple languages
+  
+- **n-gram Explanation:** [Wikipedia - n-gram](https://en.wikipedia.org/wiki/N-gram)
+  - Mathematical foundation of n-grams
+
+- **Text Normalization:** [Real Python - NLP](https://realpython.com/nltk-nlp-python/)
+  - Text cleaning and normalization techniques
+
+### **Unicode & Encoding**
+- **Unicode Essentials:** [Unicode.org](https://unicode.org/reports/tr17/)
+  - Understanding character encoding
+  
+- **Python Unicode Guide:** [Python Docs - Unicode](https://docs.python.org/3/howto/unicode.html)
+  - How Python handles Unicode text
+
+### **Advanced Tokenization**
+- **NLTK Tokenizers:** [nltk.org/api/nltk.tokenize.html](https://www.nltk.org/api/nltk.tokenize.html)
+  - Pre-built tokenization functions
+  
+- **spaCy Tokenization:** [spacy.io/usage/linguistic-features](https://spacy.io/usage/linguistic-features#tokenization)
+  - Industrial-strength tokenization
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 1](./README.md)** | **[Day 2 Exercises →](./Day-2-Exercises.md)**
