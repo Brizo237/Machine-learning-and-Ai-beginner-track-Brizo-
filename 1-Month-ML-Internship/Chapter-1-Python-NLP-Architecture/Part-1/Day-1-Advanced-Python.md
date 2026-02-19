@@ -329,6 +329,44 @@ print(result)
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Python Fundamentals**
+- **Real Python - List Comprehensions:** [realpython.com/list-comprehensions](https://realpython.com/list-comprehensions-and-generator-expressions/)
+  - Deep dive into list comprehensions with examples
+  
+- **Python Docs - Data Structures:** [docs.python.org/3/tutorial/datastructures.html](https://docs.python.org/3/tutorial/datastructures.html)
+  - Official Python documentation on lists, dicts, sets
+
+- **Real Python - Lambda Functions:** [realpython.com/lambda-functions](https://realpython.com/lambda-functions-python-intro/)
+  - Comprehensive guide to lambda functions and when to use them
+
+### **Advanced Python Concepts**
+- **Functional Programming in Python:** [Real Python Guide](https://realpython.com/functional-programming-python/)
+  - Master functional programming techniques
+  
+- **Python Data Structures Benchmark:** [GitHub - Data Structure Performance](https://github.com/goldsmith/whichdb)
+  - Performance comparison of different data structures
+
+### **Interactive Learning**
+- **LeetCode Easy Problems:** [leetcode.com](https://leetcode.com/problemset/all/) (filter by Python)
+  - Practice Python concepts with coding challenges
+  
+- **CodeWars Python Track:** [codewars.com/kata/python](https://www.codewars.com/)
+  - Interactive coding exercises ranked by difficulty
+
+- **HackerRank Python Challenges:** [hackerrank.com/domains/python](https://www.hackerrank.com/domains/python)
+  - Guided Python problems from beginner to advanced
+
+### **Performance & Optimization**
+- **Why You Don't Need Regex:** [You Don't Need Regex](https://youdontneedregex.com/)
+  - When and when not to use regular expressions
+  
+- **Big O Notation for Python:** [Cheat Sheet](https://www.bigocheatsheet.com/)
+  - Understand time complexity of your code
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 1](./README.md)** | **[Day 1 Exercises →](./Day-1-Exercises.md)**
