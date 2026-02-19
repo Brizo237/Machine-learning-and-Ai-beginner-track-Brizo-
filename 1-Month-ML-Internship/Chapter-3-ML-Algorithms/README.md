@@ -244,4 +244,62 @@ PART 5: REINFORCEMENT LEARNING (Q-Learning)
 
 ---
 
-**Last Updated:** February 19, 2026 | **Status:** Ready for implementation
+## 📚 Learning Resources for Chapter 3
+
+### **Linear Algebra Fundamentals**
+- [3Blue1Brown - Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+- [NumPy Linear Algebra](https://numpy.org/doc/stable/reference/routines.linalg.html)
+- [Wikipedia - Linear Algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+
+### **Optimization & Gradient Descent**
+- [Gradient Descent Explained](https://en.wikipedia.org/wiki/Gradient_descent)
+- [StatQuest - Gradient Descent Video](https://www.youtube.com/watch?v=sDv4f4s2SB8)
+- [Optimizers Comparison](https://www.ruder.io/optimizing-gradient-descent/)
+- [Backpropagation Algorithm](https://en.wikipedia.org/wiki/Backpropagation)
+
+### **Classification & Decision Trees**
+- [Decision Trees Explained](https://en.wikipedia.org/wiki/Decision_tree)
+- [StatQuest - Decision Trees Playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUIE6oDioVv8sXvzc1QmKKpd)
+- [Random Forests](https://en.wikipedia.org/wiki/Random_forest)
+- [Information Gain & Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory))
+
+### **Dimensionality Reduction**
+- [PCA (Principal Component Analysis)](https://en.wikipedia.org/wiki/Principal_component_analysis)
+- [StatQuest - PCA Video](https://www.youtube.com/watch?v=_UVHneBUenI)
+- [Eigenvalues and Eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors)
+- [Covariance Matrix](https://en.wikipedia.org/wiki/Covariance_matrix)
+
+### **Reinforcement Learning**
+- [Sutton & Barto - RL Book](http://incompleteideas.net/book/the-book-2nd.html)
+- [OpenAI Spinning Up in Deep RL](https://spinningup.openai.com/)
+- [Q-Learning Tutorial](https://www.youtube.com/watch?v=yMk_XwIlNjY)
+- [Markov Decision Processes](https://en.wikipedia.org/wiki/Markov_decision_process)
+- [Bellman Equation](https://en.wikipedia.org/wiki/Bellman_equation)
+
+### **Scikit-learn & Practice**
+- [Scikit-learn Official Guide](https://scikit-learn.org/stable/user_guide.html)
+- [Hands-On Machine Learning Repository](https://github.com/ageron/handson-ml2)
+- [Andrew Ng ML Course](https://www.coursera.org/learn/machine-learning)
+- [Fast.ai Machine Learning](https://www.fast.ai/)
+
+### **Evaluation & Metrics**
+- [Scikit-learn Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+- [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
+- [ROC Curve & AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
+- [Cross Validation](https://scikit-learn.org/stable/modules/cross_validation.html)
+
+---
+
+## 📖 Chapter-Specific Resources
+
+Each Part includes detailed "📚 Additional Resources" sections at the end with links to:
+- Theory explanations
+- Tutorial videos
+- Research papers
+- Implementation references
+- Interactive visualizations
+
+---
+
+**Last Updated:** February 19, 2026 | **Status:** Complete with Resources
