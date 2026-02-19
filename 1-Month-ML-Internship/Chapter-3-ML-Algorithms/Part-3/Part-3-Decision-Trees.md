@@ -448,6 +448,35 @@ $$\text{Gini Impurity} = 1 - \sum_{i=1}^{c} p_i^2$$
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Decision Tree Algorithms**
+- [Decision Trees (Wikipedia)](https://en.wikipedia.org/wiki/Decision_tree) - Overview and theory
+- [Information Gain and Entropy](https://en.wikipedia.org/wiki/Information_gain_in_decision_trees) - Mathematical foundations
+- [ID3 and C4.5 Algorithms](https://en.wikipedia.org/wiki/ID3_algorithm) - Decision tree learning algorithms
+
+### **Scikit-learn Decision Trees**
+- [Decision Tree Classification](https://scikit-learn.org/stable/modules/tree.html) - Official documentation
+- [DecisionTreeClassifier API](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - Implementation details
+- [Tree Visualization](https://scikit-learn.org/stable/modules/tree.html#tree-structure) - Visualizing tree structures
+
+### **Random Forests & Ensemble Methods**
+- [Random Forest (Wikipedia)](https://en.wikipedia.org/wiki/Random_forest) - Ensemble method theory
+- [Ensemble Learning](https://en.wikipedia.org/wiki/Ensemble_learning) - Bootstrap aggregating principles
+- [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - API reference
+
+### **Boosting Algorithms**
+- [Gradient Boosting](https://en.wikipedia.org/wiki/Gradient_boosting) - Boosting methodology
+- [XGBoost Documentation](https://xgboost.readthedocs.io/) - Production-grade gradient boosting
+- [AdaBoost](https://en.wikipedia.org/wiki/AdaBoost) - Adaptive boosting algorithm
+
+### **Tree Deep Dives**
+- [StatQuest Decision Trees](https://www.youtube.com/watch?v=7VeUAPZLtww) - Josh Starmer visual explanation
+- [Random Forests Clearly Explained](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ) - StatQuest tutorial
+- [Gini Impurity Explained](https://www.youtube.com/watch?v=umtjlg9I8vs) - Information theory in ML
+
+---
+
+## �🔗 Navigation
 
 **[← Part 2: Classification](../Part-2/Part-2-Classification.md)** | **[Go to Exercises →](./Part-3-Exercises.md)** | **[Chapter 3 →](../README.md)**
