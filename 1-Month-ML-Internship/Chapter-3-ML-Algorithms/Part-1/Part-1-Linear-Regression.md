@@ -321,6 +321,35 @@ print(metrics)
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Linear Algebra Foundations**
+- [3Blue1Brown Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - Intuitive video series on linear algebra
+- [Khan Academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra) - Comprehensive foundational course
+- [Wikipedia Linear Algebra](https://en.wikipedia.org/wiki/Linear_algebra) - Mathematical reference
+
+### **Gradient Descent & Optimization**
+- [Gradient Descent Explained](https://en.wikipedia.org/wiki/Gradient_descent) - Wikipedia overview with equations
+- [StatQuest Gradient Descent](https://www.youtube.com/watch?v=sDv4f4s2SB8) - StatQuest visual explanation
+- [An Overview of Gradient Descent](https://ruder.io/optimizing-gradient-descent/) - Comprehensive guide to optimization
+
+### **Scikit-learn Linear Regression**
+- [Linear Regression Docs](https://scikit-learn.org/stable/modules/linear_model.html) - Official scikit-learn documentation
+- [Linear Regression Tutorial](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) - API reference and examples
+- [Polynomial Regression](https://scikit-learn.org/stable/modules/compose.html#polynomial-features) - Extending linear models
+
+### **Calculus & Derivatives**
+- [Khan Academy Calculus](https://www.khanacademy.org/math/calculus-1) - Derivative fundamentals
+- [Derivatives in ML](https://www.3blue1brown.com/topics/calculus) - Visual derivatives explanation
+- [Partial Derivatives](https://en.wikipedia.org/wiki/Partial_derivative) - Wikipedia reference
+
+### **Statistical Foundations**
+- [Regression Analysis](https://en.wikipedia.org/wiki/Regression_analysis) - Statistical theory
+- [Least Squares Method](https://en.wikipedia.org/wiki/Least_squares) - Mathematical foundations
+- [StatQuest Statistics](https://www.youtube.com/c/joshstarmer) - YouTube statistical concepts
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 3](../README.md)** | **[Part 1 Exercises →](./Part-1-Exercises.md)**
