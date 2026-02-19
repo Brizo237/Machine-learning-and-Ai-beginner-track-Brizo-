@@ -180,4 +180,35 @@ class EmbeddingEngine:
 
 ---
 
+## 📚 Additional Resources & Learning Links
+
+### **Vector Representations**
+- **Word2Vec Explained:** [papers.nips.cc - Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
+  - Original Word2Vec paper
+  
+- **Real Python - Cosine Similarity:** [realpython.com/cosine-similarity](https://realpython.com/normalize-data-with-pandas/)
+  - Understanding cosine similarity in detail
+  
+- **Vector Norms:** [Wikipedia - Norm (mathematics)](https://en.wikipedia.org/wiki/Norm_(mathematics))
+  - Mathematical foundation for vector normalization
+
+### **Embeddings & NLP**
+- **GloVe Vector Embeddings:** [nlp.stanford.edu/projects/glove](https://nlp.stanford.edu/projects/glove/)
+  - Pre-trained word embeddings
+  
+- **FastText Vectors:** [fasttext.cc](https://fasttext.cc/)
+  - Subword-based embeddings by Facebook
+  
+- **Hugging Face Models:** [huggingface.co/models](https://huggingface.co/models?pipeline_tag=feature-extraction)
+  - Modern embedding models
+
+### **Linear Algebra for ML**
+- **3Blue1Brown - Essence of Linear Algebra:** [youtube.com - 3b1b](https://www.youtube.com/watch?v=fNk_zzaMoSQ&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  - Excellent visual explanation of vectors and matrices
+  
+- **Dot Products & Similarity:** [Khan Academy - Dot Product](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
+  - Mathematical foundation
+
+---
+
 **[← Back to Chapter 1](./README.md)** | **[Day 4 Exercises →](./Day-4-Exercises.md)**
