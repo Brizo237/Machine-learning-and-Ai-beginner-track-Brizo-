@@ -184,10 +184,38 @@ A: No - calculate vectors manually first. You'll use NumPy in Week 2+.
 
 ---
 
-## 🔗 Navigation
+## 📚 Learning Resources for Chapter 1
 
-**[← Back to Program Overview](../README.md)** | **[Start Day 1 →](./Day-1-Advanced-Python.md)**
+### **Python Fundamentals**
+Each Part includes a "📚 Additional Resources" section with links to:
+- Real Python comprehensive tutorials
+- Official Python documentation
+- Interactive coding platforms (LeetCode, CodeWars, HackerRank)
+- Performance and optimization guides
+
+**Quick Links:**
+- [List Comprehensions - Real Python](https://realpython.com/list-comprehensions-and-generator-expressions/)
+- [Python Data Structures - Official Docs](https://docs.python.org/3/tutorial/datastructures.html)
+- [Lambda Functions - Real Python](https://realpython.com/lambda-functions-python-intro/)
+
+### **NLP & Text Processing**
+- [NLTK Toolkit](https://www.nltk.org/) - Natural Language Toolkit
+- [spaCy](https://spacy.io/) - Industrial-strength NLP
+- [TextBlob](https://textblob.readthedocs.io/) - Simplified text processing
+- [Stanford NLP Course](https://online.stanford.edu/courses/xcs224n-natural-language-processing-deep-learning)
+
+### **Practice & Challenge**
+- [LeetCode String Problems](https://leetcode.com/problemset/all/?topicSlugs=string)
+- [CodeWars Python Kata](https://www.codewars.com/?language=python)
+- [HackerRank NLP](https://www.hackerrank.com/domains/python)
+
+### **Interactive Tools**
+- [Regex101](https://regex101.com/) - Test regular expressions
+- [Python Tutor](https://pythontutor.com/) - Visualize code execution
+- [Jupyter Notebook Online](https://try.jupyter.org/) - Try Jupyter without installation
 
 ---
 
-**Ready to build NLP from first principles? Let's begin Week 1!**
+## 🔗 Navigation
+
+**[← Back to Program Overview](../README.md)** | **[Start Part 1 →](./Part-1/Day-1-Advanced-Python.md)**
