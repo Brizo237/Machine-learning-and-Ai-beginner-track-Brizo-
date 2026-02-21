@@ -1,15 +1,15 @@
-# 12: Error Handling - Try-Except
+# 12: Error Handling - Writing Robust Code
 
-**Duration:** 40 minutes | **Difficulty:** Intermediate | **Key Skill:** Robust code with error handling
+**Duration:** 45 minutes | **Difficulty:** Beginner | **Key Skill:** Defensive programming
 
 ---
 
 ## í¾¯ What You'll Learn
 
 - Try-except blocks
-- Common exceptions
-- Finally and else clauses
+- Handling specific exceptions
 - Raising exceptions
+- Finally clause
 
 ---
 
@@ -17,25 +17,36 @@
 
 \`\`\`python
 try:
-    result = 10 / 0  # Will raise error
+    result = 10 / 0  # Will cause error
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 
 try:
-    value = int("hello")
+    score = int("abc")  # Invalid conversion
 except ValueError:
-    print("Not a valid number")
+    print("Cannot convert string to int")
 \`\`\`
 
-## í³š Multiple Except
+### Multiple Exceptions
 
 \`\`\`python
 try:
-    value = int(input())
-except ValueError:
-    print("Enter a number")
-except KeyboardInterrupt:
-    print("User cancelled")
+    data = {"key": "value"}
+    print(data["missing"])
+except KeyError:
+    print("Key not found")
+except Exception as e:
+    print(f"Unexpected error: {e}")
+\`\`\`
+
+### Finally
+
+\`\`\`python
+try:
+    file = open("data.txt", "r")
+    content = file.read()
+finally:
+    file.close()  # Runs no matter what
 \`\`\`
 
 ---
@@ -43,11 +54,22 @@ except KeyboardInterrupt:
 ## í·  ML Context
 
 \`\`\`python
-# Validate data
 try:
-    assert 0 <= probability <= 1
-except AssertionError:
-    print("Invalid probability")
+    score = float(user_input)
+    if score < 0 or score > 1:
+        raise ValueError("Score must be 0-1")
+except (ValueError, TypeError):
+    print("Invalid score")
 \`\`\`
+
+---
+
+## í´‘ Key Takeaways
+
+âœ… try: runs risky code
+âœ… except: handles errors
+âœ… finally: cleanup code
+âœ… raise: create custom errors
+âœ… Robust code anticipates errors
 
 ---
