@@ -1,47 +1,49 @@
 # 14: Lambda Functions - Anonymous Functions
 
-**Duration:** 40 minutes | **Difficulty:** Intermediate | **Key Skill:** Functional programming basics
+**Duration:** 40 minutes | **Difficulty:** Intermediate | **Key Skill:** Functional programming
 
 ---
 
 ## í¾¯ What You'll Learn
 
-- Lambda syntax
+- Creating lambda functions
 - Using with map(), filter(), sort()
 - When to use lambdas
+- Best practices
 
 ---
 
-## í³š Lambda Basics
+## í³š Basic Lambda
 
 \`\`\`python
-# Regular function
-def add(x, y):
-    return x + y
+# Traditional function
+def add(a, b):
+    return a + b
 
 # Lambda equivalent
-add_lambda = lambda x, y: x + y
-print(add_lambda(3, 5))  # 8
+add_lambda = lambda a, b: a + b
+
+print(add_lambda(5, 3))  # 8
 \`\`\`
 
-## í³š With map() and filter()
+### With map() and filter()
 
 \`\`\`python
-# map() - apply function to each item
-numbers = [1, 2, 3, 4]
-doubled = list(map(lambda x: x * 2, numbers))
-print(doubled)  # [2, 4, 6, 8]
+numbers = [1, 2, 3, 4, 5]
 
-# filter() - keep items where function returns True
+# Map: apply function to all
+squared = list(map(lambda x: x**2, numbers))
+
+# Filter: keep items where condition is True
 evens = list(filter(lambda x: x % 2 == 0, numbers))
-print(evens)  # [2, 4]
 \`\`\`
 
-## í³š Sorting with Lambda
+### Sorting with Lambda
 
 \`\`\`python
-students = [("Alice", 95), ("Bob", 87), ("Charlie", 92)]
-sorted_by_grade = sorted(students, key=lambda x: x[1])
+# Sort by second element
+data = [(1, 3), (2, 1), (3, 2)]
+sorted_data = sorted(data, key=lambda x: x[1])
 \`\`\`
 
 ---
@@ -50,8 +52,18 @@ sorted_by_grade = sorted(students, key=lambda x: x[1])
 
 \`\`\`python
 # Sort predictions by confidence
-predictions = [("cat", 0.95), ("dog", 0.82)]
-top_pred = sorted(predictions, key=lambda x: x[1], reverse=True)[0]
+predictions = [(0.9, "cat"), (0.6, "dog"), (0.95, "bird")]
+top_preds = sorted(predictions, key=lambda x: x[0], reverse=True)
 \`\`\`
+
+---
+
+## í´‘ Key Takeaways
+
+âœ… Lambda: anonymous one-line functions
+âœ… Syntax: lambda args: expression
+âœ… Great for simple transformations
+âœ… Used with map, filter, sort, sorted
+âœ… Keep lambdas simple and readable
 
 ---
